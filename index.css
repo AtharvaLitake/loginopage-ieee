@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("back.gif");
+    font-family: cursive;
+}
+.container
+{
+    height: auto;
+    width: 100%;
+    display: grid;
+    margin-top: 12%;
+    justify-content: center;
+    
+}
+.box
+{
+    font-family: cursive;
+    border-radius: 20px;
+    background-color:  #f0f8ff61;
+    height: auto;
+    width: 400px;
+    text-align: center;
+    padding-top: 10px;
+}
+.box img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.box h1
+{
+    font-weight: 800;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.form
+{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.form input{
+    border-radius: 20px;
+    border-color: black;
+    border-style: outset;
+    height: 40px;
+    width: 70%;
+    font-size: 1.3rem;
+    color: rgb(8, 8, 8);
+    font-family: cursive;
+}
+.box img
+{
+    display: block;
+    margin: auto;
+}
+.box a
+{
+    color: rgb(172, 170, 170);
+}
+
+.btn input
+{
+    display: block;
+    margin: auto;
+    width: 200px;
+    background-color: gray;
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-family: cursive;
+}
+.btn input:hover
+{
+    background-color: chartreuse;
+    cursor: pointer;
+}
+.box a:hover
+{
+    color: rgb(250, 255, 245);
+    cursor: pointer;
+}
+@media(max-width:900px)
+{
+    .box{
+        width: 300px;
+    }
+}
